@@ -1,0 +1,10 @@
+server:
+  port: 8098
+  servlet:
+    context-path: /movies
+    
+spring:
+  application:
+    name: movies-service
+  profiles:
+    active: dev
